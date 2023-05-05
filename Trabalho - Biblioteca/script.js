@@ -71,9 +71,9 @@ var livros = [
     categoria: "terror",
   },
   {
-    id: 7,
     name: "Livro jesus",
-    sumario:
+   id: 7,
+     sumario:
       "Esse livro conta a historia de algo muito assustador que da medo demais aaaaa bu bu bu bu",
     preco: 22.9,
     pictureURL:
@@ -81,6 +81,73 @@ var livros = [
     href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
     categoria: "acao",
   },
+  {
+    name: "aquele belo par de olhos",
+   id:20 ,
+     sumario:
+      "Anne estava tão confusa com tudo o que estava acontecendo em sua vida, tantas mudanças e confusões, mas de repente parece que tudo se acalmou com aquele belo par de olhos olhando fixamente para ela. Aqueles olhos pareciam que sorriam para ela, e então Anne saiu do transe após duas meninas passarem em sua frente fofocando sobre algo aleatório...",
+    preco: 150.9,
+    pictureURL:
+      "/inputs/Muteless_2.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+  {
+    name: "Um beijo à meia-noite",
+   id:21 ,
+     sumario:
+      "Tudo começou com um beijo à meia-noite. Todos já tinham se recolhido para suas casas, mas lá estava eu, fugindo dos meus pais, por aqueles becos escuros apenas com uma pequena lamparina que mal iluminava o caminho. Ao virar um dos becos, me esbarrei com um guarda caindo sobre ele...",
+    preco: 45.9,
+    pictureURL:
+      "/inputs/love_6.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+  {
+    name: "O campo estrelado",
+   id:22 ,
+     sumario:
+      "Estava eu numa bela noite de sexta-feira, deitada sobre a grama do campo, observando as estrelas, quando de repente avistei no céu uma luz azul, diferente dos demais corpos estelares. Era um formato de um corpo. Não acreditei no que meus olhos estavam vendo. Era um homem esbelto com uma beleza surreal. Nunca tinha visto algo assim. Ele foi chegando perto de mim. Meu coração estava a mil mal conseguia me mover...",
+    preco: 65.9,
+    pictureURL:
+      "/inputs/love_1.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+  {
+    name: "Não há distância para o amor",
+   id:23 ,
+     sumario:
+      "Tudo que eu tinha era ele, e lá estava ele na porta de embarque para o outro lado do mundo, sem previsão de volta, sem aquele sorriso no rosto que eu amo. E o pior de tudo... sem mim. Tudo o que ele conseguiu dizer quando nós demos o último abraço foi: 'Não há distância para o amor, eu te amo Elise e prometo voltar por nós...",
+    preco: 75.9,
+    pictureURL:
+      "/inputs/love.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+  {
+    name: "Detetive do amor",
+   id:24 ,
+     sumario:
+      "E lá estava Grace, a detetive mais descolada que vocês poderiam conhecer. Ela tinha tudo que um detetive precisaria ter para conseguir desvendar os maiores casos de Tenessi. Até que, um dia, Grace se deparou com um caso do qual ela não conseguia desvendar: o roubo do Banco Central. O presidente estava maluco com tanta falta de informação sobre o roubo. Só ninguém esperava que Grace se apaixonaria pelo criminoso, que aliás, era o filho do...",
+    preco: 85.9,
+    pictureURL:
+      "/inputs/Muteless_4.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+  {
+    name: "O amor em tempos de guerra",
+   id:25 ,
+     sumario:
+      "Tudo estava um caos em meu país, as forças armadas da Ilha Montina estavam por todos os lados, destruindo tudo o que viam pela frente. Era um cenário catastrófico. Perdi meus pais na guerra, sentia uma falta imensa dos meus amigos, e cá estava eu, fugindo e me escondendo dos soldados Montineses, até que um dia entrou dois soldados no meu esconderijo. Um deles olhou em minha direção, mas não fez nada, apenas chamou seu companheiro dizendo: 'Vamos, Carleu, não há ninguém aqui..",
+    preco: 99.9,
+    pictureURL:
+      "/inputs/Muteless_3.png",
+    href: "http://127.0.0.1:5500/inputs/png-transparent-computer-icons-book-symbol-book-now-button-angle-rectangle-libra.png",
+    categoria: "romance",
+  },
+
 ];
 
 document.querySelector(".searchButton").addEventListener("click", (e) => {
